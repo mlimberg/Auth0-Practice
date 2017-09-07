@@ -23,7 +23,7 @@ class App extends Component {
         <Route path='/home' render={props => <Home auth={auth} /> } />
         <Route exact path='/' render={(props) => {
           handleAuth(props)
-          return <Callback {...props} />
+          return <Callback auth={auth} />
         }} />
       </div>
     );

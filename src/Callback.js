@@ -8,10 +8,9 @@ export default class Callback extends Component {
 
 
   render() {
-
     return (
       <div>
-        Loadinggggggggg......
+        Loadinggggggg.....
       </div>
     )
   }
